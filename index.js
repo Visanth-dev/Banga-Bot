@@ -58,22 +58,22 @@ bot.on('message', message =>{
 
 bot.on('message', message =>{
     if(message.content.includes('stats pistol')){
-        message.channel.send({files : ['./Pistols.JPG']});
+        message.channel.send('Here is a detailed report on PISTOLS soldier' , {files : ['./Pistols.JPG']});
     }
     if(message.content.includes('stats shotgun')){
-        message.channel.send({files : ['./Shotguns.JPG']});
+        message.channel.send('Here is a detailed report on SHOTGUNS soldier' , {files : ['./Shotguns.JPG']});
     }
     if(message.content.includes('stats ar')){
-        message.channel.send({files : ['./ARs.JPG']});
+        message.channel.send('Here is a detailed report on ASSAULT RIFLES soldier' , {files : ['./ARs.JPG']});
     }
     if(message.content.includes('stats smg')){
-        message.channel.send({files : ['./SMGs.JPG']});
+        message.channel.send('Here is a detailed report on SUB-MACHINE GUNS soldier' , {files : ['./SMGs.JPG']});
     }
     if(message.content.includes('stats sniper')){
-        message.channel.send({files : ['./Snipers.JPG']});
+        message.channel.send('Here is a detailed report on SNIPERS soldier' , {files : ['./Snipers.JPG']});
     }
     if(message.content.includes('stats lmg')){
-        message.channel.send({files : ['./LMGs.JPG']});
+        message.channel.send('Here is a detailed report on LIGHT MACHINE GUNS soldier' , {files : ['./LMGs.JPG']});
     }
 })  
 

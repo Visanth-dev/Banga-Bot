@@ -70,7 +70,7 @@ bot.on('message', message =>{
         message.channel.send('Here is a detailed report on SUB-MACHINE GUNS soldier' , {files : ['./SMGs.JPG']});
     }
     if(message.content.includes('stats sniper')){
-        message.channel.send('Here is a detailed report on SNIPERS soldier' , {files : ['./Snipers.JPG']});
+        message.channel.send('Here is a detailed report on SNIPERS soldier' , {files : ['./Snipers.png']});
     }
     if(message.content.includes('stats lmg')){
         message.channel.send('Here is a detailed report on LIGHT MACHINE GUNS soldier' , {files : ['./LMGs.JPG']});

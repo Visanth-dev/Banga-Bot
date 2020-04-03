@@ -10,7 +10,7 @@ bot.on('ready', () =>{
 
 bot.on('message', message =>{
     if(message.content.includes('best of visanth')){
-        message.channel.send('I remeber this match clear as a sunny day, Got 8 kills in skull town wiped a squad off the map near hydro dam and finishing off 2 more from the last squad to secure my highest kills and damage match and a 2k badge to remeber, all this while carrying my squad. GGs for sure.', {files : ['./Images/v1.png']});
+        message.channel.send('I remeber this match clear as a sunny day, Got 8 kills in skull town wiped a squad off the map near hydro dam and finishing off 2 more from the last squad to secure my highest kills and damage match and a 2k badge to remeber, all this while carrying my squad. GGs for sure.', {files : ['https://drive.google.com/open?id=1KEp-t9liJr9hCH95DdMMYztly11snEZ_']});
     }
     else
     if(message.content.includes('best of vikram')){

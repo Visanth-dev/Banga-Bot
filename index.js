@@ -94,7 +94,13 @@ bot.on('message', message =>{
             message.channel.bulkDelete(args[1]);
         break;
         case '!command':
-            message.channel.send('Here is a list of code-words to ask intel from me:# "hi" ('/n') # "!drop"');
+            message.channel.send('Here is a list of code-words to gain intel from me:');
+            message.channel.send('# "hi"');
+            message.channel.send('# "!drop"');
+            message.channel.send('          ');
+            message.channel.send('# "ping (name of the soldier)"');
+            message.channel.send('  eg: ping vikram.');
+            message.channel.send('* Descriptive stats of the soldier is given.');
         break;        
      }
 })

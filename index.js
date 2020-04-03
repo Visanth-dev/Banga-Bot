@@ -64,13 +64,13 @@ bot.on('message', message =>{
         message.channel.send({files : ['./shotguns.jpg']});
     }
     if(message.content.includes('stats report ars')){
-        message.channel.send({files : ['./ARs.jpg']});
+        message.channel.send({files : ['./ARs.JPG']});
     }
     if(message.content.includes('stats report smgs')){
-        message.channel.send({files : ['./SMGs.jpg']});
+        message.channel.send({files : ['./SMGs.JPG']});
     }
     if(message.content.includes('stats report snipers')){
-        message.channel.send({files : ['./Snipers.jpg']});
+        message.channel.send({files : ['./Snipers.JPG']});
     }
     if(message.content.includes('stats report lmgs')){
         message.channel.send({files : ['./LMGs.jpg']});

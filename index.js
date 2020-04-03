@@ -94,7 +94,7 @@ bot.on('message', message =>{
             message.channel.bulkDelete(args[1]);
         break;
         case '!commands':
-            message.channel.send('Here is a list of code-words to ask intel from me:# hi('/n') # "!drop" ('/n')# ping (name of the soldier)eg: ping vikram.
+            message.channel.send('Here is a list of code-words to ask intel from me:# hi('/n') # "!drop" ('/n')# ping (name of the soldier)eg: ping vikram.');
     }
 })
 

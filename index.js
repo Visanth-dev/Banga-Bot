@@ -10,11 +10,11 @@ bot.on('ready', () =>{
 
 bot.on('message', message =>{
     if(message.content.includes('best of visanth')){
-        message.channel.send('I remeber this match clear as a sunny day, Got 8 kills in skull town wiped a squad off the map near hydro dam and finishing off 2 more from the last squad to secure my highest kills and damage match and a 2k badge to remeber, all this while carrying my squad. GGs for sure.', {files : ['https://drive.google.com/open?id=1KEp-t9liJr9hCH95DdMMYztly11snEZ_']});
+        message.channel.send('I remeber this match clear as a sunny day, Got 8 kills in skull town wiped a squad off the map near hydro dam and finishing off 2 more from the last squad to secure my highest kills and damage match and a 2k badge to remeber, all this while carrying my squad. GGs for sure.', {files : ['./v1.png']});
     }
     else
     if(message.content.includes('best of vikram')){
-        message.channel.send('The time when the Ultimate Gamer joined forces with the Ultimate Legend to carry his fellow legends for an epic top 3 placement. Brilliant use of his dome to revive his teammates quadruple times and his enemies were FUBAR after his ult landed on them. Would love to see that again.', {files : ['https://drive.google.com/open?id=1cZnGC9BdL8EGIcw2Lnq8vkxIITA4G7wy']});
+        message.channel.send('The time when the Ultimate Gamer joined forces with the Ultimate Legend to carry his fellow legends for an epic top 3 placement. Brilliant use of his dome to revive his teammates quadruple times and his enemies were FUBAR after his ult landed on them. Would love to see that again.', {files : ['./vv1.png']});
     }
     else
     if(message.content.includes('ping visanth')){
@@ -46,7 +46,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('best of gowtham')){
-        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['./Images/g1.png']});
+        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['./g1.png']});
     }
     else
     if(message.content.includes('gowtham')){

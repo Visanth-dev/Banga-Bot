@@ -108,7 +108,7 @@ bot.on('message', message =>{
             message.channel.send('*Displays the best game yet of that particular soldier.');   
             message.channel.send('# **stats (weapon class)**');   
             message.channel.send('eg: stats ar.');
-            message.channel.send('* Detailed stats of all the weapons from the specified class is displayed.(pistols,shotguns,smg,ar,sniper,lmg.)');     
+            message.channel.send('* Detailed stats of all the weapons from the specified class is displayed.(pistol,shotgun,smg,ar,sniper,lmg.)');     
             message.channel.send('# **gowtham is a noob**');        
             message.channel.send('# **stinky gowtham**');      
             message.channel.send('** All code-words must be in lower-case letters. **');

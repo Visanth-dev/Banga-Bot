@@ -95,7 +95,8 @@ bot.on('message', message =>{
         break;
         case '!commands':
             message.channel.send('Here is a list of code-words to ask intel from me:# hi('/n') # "!drop" ('/n')# ping (name of the soldier)eg: ping vikram.');
-    }
+        break;
+     }
 })
 
 bot.login(process.env.BOT_TOKEN);

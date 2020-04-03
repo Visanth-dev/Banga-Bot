@@ -34,7 +34,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('stinky')){
-        message.channel.send('**sniff**sniff**  So thats what a noob smells like.');
+        message.channel.send('`sniff` `sniff` , So thats what a noob smells like.');
     }
     else
     if(message.content.includes('gowtham is a noob')){
@@ -75,6 +75,9 @@ bot.on('message', message =>{
     if(message.content.includes('stats lmg')){
         message.channel.send('Here is a detailed report on LIGHT MACHINE GUNS soldier' , {files : ['./LMGs.JPG']});
     }
+    if(message.content.includes('!cmd')){
+        message.channel.send({files : ['./cmds.JPG']});
+    }
 })  
 
 bot.on('message', message =>{
@@ -95,19 +98,19 @@ bot.on('message', message =>{
         break;
         case '!command':
             message.channel.send('Here is a list of code-words to gain intel from me:');
-            message.channel.send('# "**hi**"');
-            message.channel.send('# "**!drop**"');
-            message.channel.send('# "**ping (name of the soldier)**"');
+            message.channel.send('# **hi**');
+            message.channel.send('# **!drop**');
+            message.channel.send('# **ping (name of the soldier)**');
             message.channel.send('eg: ping vikram.');
             message.channel.send('* Descriptive stats of the soldier is given.');
-            message.channel.send('# "**best of (name of the soldier**"');
+            message.channel.send('# **best of (name of the soldier**');
             message.channel.send('eg: best of vikram.');    
             message.channel.send('*Displays the lifetime best stats in a single game of that particular soldier.');   
-            message.channel.send('# "**stats (weapon class)**');   
+            message.channel.send('# **stats (weapon class)**');   
             message.channel.send('eg: stats ar.');
             message.channel.send('* Detailed stats of all the weapons in each class is displayed.');     
-            message.channel.send('# "**gowtham is a noob**"');        
-            message.channel.send('# "**stinky gowtham**');      
+            message.channel.send('# **gowtham is a noob**');        
+            message.channel.send('# **stinky gowtham**');      
             message.channel.send('** All code-words must be in lower-case letters. **');
         break;        
      }

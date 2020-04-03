@@ -102,13 +102,13 @@ bot.on('message', message =>{
             message.channel.send('# **!drop**');
             message.channel.send('# **ping (name of the soldier)**');
             message.channel.send('eg: ping vikram.');
-            message.channel.send('* Descriptive stats of the soldier is given.');
-            message.channel.send('# **best of (name of the soldier**');
+            message.channel.send('* Descriptive detail of the soldier is given.');
+            message.channel.send('# **best of (name of the soldier)**');
             message.channel.send('eg: best of vikram.');    
-            message.channel.send('*Displays the lifetime best stats in a single game of that particular soldier.');   
+            message.channel.send('*Displays the best game yet of that particular soldier.');   
             message.channel.send('# **stats (weapon class)**');   
             message.channel.send('eg: stats ar.');
-            message.channel.send('* Detailed stats of all the weapons in each class is displayed.');     
+            message.channel.send('* Detailed stats of all the weapons from the specified class is displayed.(pistols,shotguns,smg,ar,sniper,lmg.)');     
             message.channel.send('# **gowtham is a noob**');        
             message.channel.send('# **stinky gowtham**');      
             message.channel.send('** All code-words must be in lower-case letters. **');

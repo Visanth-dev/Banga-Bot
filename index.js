@@ -57,6 +57,27 @@ bot.on('message', message =>{
 
 
 bot.on('message', message =>{
+    if(message.content.includes('stats report pistols')){
+        message.channel.send('./Pistols.jpg');
+    }
+    if(message.content.includes('stats report shotguns')){
+        message.channel.send('./shotguns.jpg');
+    }
+    if(message.content.includes('stats report ars')){
+        message.channel.send('./ARs.jpg');
+    }
+    if(message.content.includes('stats report smgs')){
+        message.channel.send('./SMGs.jpg');
+    }
+    if(message.content.includes('stats report snipers')){
+        message.channel.send('./Snipers.jpg');
+    }
+    if(message.content.includes('stats report lmgs')){
+        message.channel.send('./LMGs.jpg');
+    }
+})  
+
+bot.on('message', message =>{
    
     let args = message.content.substring(PREFIX.length).split(" ");
 

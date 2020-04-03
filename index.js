@@ -61,7 +61,7 @@ bot.on('message', message =>{
         message.channel.send({files : ['./Pistols.JPG']});
     }
     if(message.content.includes('stats shotgun')){
-        message.channel.send({files : ['./shotguns.JPG']});
+        message.channel.send({files : ['./Shotguns.JPG']});
     }
     if(message.content.includes('stats ar')){
         message.channel.send({files : ['./ARs.JPG']});

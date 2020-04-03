@@ -58,22 +58,22 @@ bot.on('message', message =>{
 
 bot.on('message', message =>{
     if(message.content.includes('stats report pistols')){
-        message.channel.send('./Pistols.jpg');
+        message.channel.send({files : ['./Pistols.jpg']});
     }
     if(message.content.includes('stats report shotguns')){
-        message.channel.send('./shotguns.jpg');
+        message.channel.send({files : ['./shotguns.jpg']});
     }
     if(message.content.includes('stats report ars')){
-        message.channel.send('./ARs.jpg');
+        message.channel.send({files : ['./ARs.jpg']});
     }
     if(message.content.includes('stats report smgs')){
-        message.channel.send('./SMGs.jpg');
+        message.channel.send({files : ['./SMGs.jpg']});
     }
     if(message.content.includes('stats report snipers')){
-        message.channel.send('./Snipers.jpg');
+        message.channel.send({files : ['./Snipers.jpg']});
     }
     if(message.content.includes('stats report lmgs')){
-        message.channel.send('./LMGs.jpg');
+        message.channel.send({files : ['./LMGs.jpg']});
     }
 })  
 

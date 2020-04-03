@@ -14,7 +14,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('best of vikram')){
-        message.channel.send('The time when the Ultimate Gamer joined forces with the Ultimate Legend to carry his fellow legends for an epic top 3 placement. Brilliant use of his dome to revive his teammates quadruple times and his enemies were FUBAR after his ult landed on them. Would love to see that again.', {files : ['./Images/vv1.png']});
+        message.channel.send('The time when the Ultimate Gamer joined forces with the Ultimate Legend to carry his fellow legends for an epic top 3 placement. Brilliant use of his dome to revive his teammates quadruple times and his enemies were FUBAR after his ult landed on them. Would love to see that again.', {files : ['https://drive.google.com/open?id=1cZnGC9BdL8EGIcw2Lnq8vkxIITA4G7wy']});
     }
     else
     if(message.content.includes('ping visanth')){
@@ -46,7 +46,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('best of gowtham')){
-        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['./Images/g1.png']});
+        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['https://drive.google.com/open?id=1b-q4yt3ARY4E3GRGyZ78Q0ERbSEPERC_']});
     }
     else
     if(message.content.includes('gowtham')){

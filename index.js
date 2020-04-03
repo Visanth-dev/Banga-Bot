@@ -93,6 +93,9 @@ bot.on('message', message =>{
             if(!args[1]) return message.reply('How many should I erase soldier?')
             message.channel.bulkDelete(args[1]);
         break;
+        case '!command':
+            message.channel.send('Here is a list of code-words to ask intel from me:# "hi" ('/n') # "!drop"');
+        break;        
      }
 })
 

@@ -46,7 +46,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('best of gowtham')){
-        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['https://drive.google.com/open?id=1b-q4yt3ARY4E3GRGyZ78Q0ERbSEPERC_']});
+        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['./Images/g1.png']});
     }
     else
     if(message.content.includes('gowtham')){

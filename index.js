@@ -46,7 +46,7 @@ bot.on('message', message =>{
     }
     else
     if(message.content.includes('best of gowtham')){
-        message.channel.send('Was an adrenaline filled match from start to finish with a never ending wave of 3rd parties in the building of doom in capitol city, but we emerged victorious fighting side by side and Private.Raj became the first Apex Noob to reach the 2k damage milestone. Good job soldier.', {files : ['./g1.png']});
+        message.channel.send('Blothhundr Gowtham used their tracking and sniping skills to hunt their prey around Sorting factory and Geyser, with the grace of the Allfather this hunt was a success', {files : ['./g1.png']});
     }
     else
     if(message.content.includes('gowtham')){

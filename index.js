@@ -5,6 +5,7 @@ const PREFIX = '';
 
 bot.on('ready', () =>{
     console.log('Ready to Rock');
+    bot.user.setActivity('Titanfall 2');
 })
 
 

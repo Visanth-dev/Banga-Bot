@@ -5,7 +5,7 @@ const PREFIX = '';
 
 bot.on('ready', () =>{
     console.log('Ready to Rock');
-    bot.user.setActivity('The Handsome Collection');
+    bot.user.setActivity('Borderlands 2');
 })
 
 

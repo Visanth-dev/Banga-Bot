@@ -5,7 +5,7 @@ const PREFIX = '';
 
 bot.on('ready', () =>{
     console.log('Ready to Rock');
-    bot.user.setActivity('Apex Legends 2');
+    bot.user.setActivity('With Herself');
 })
 
 
